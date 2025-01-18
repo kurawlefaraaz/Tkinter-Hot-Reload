@@ -1,0 +1,8 @@
+Tkinter HotReload
+
+- Reimplement Tk and Frame class to let hot_reload script interact with the tkinter window
+- Get differnce between two snaps old and current only for line containing tkinter widgets or managers.
+- Based on state of the line(removed, added, updated) accordingly excute related functions.
+- Additionly add support for multi-module based GUI.
+- Provide 2 reload features, hot reload(dynamically adds, destroys and update a particular widgets) and frame reload(reloads a particular existing frame)
+- provide a text editor to execute widget specific methods.
